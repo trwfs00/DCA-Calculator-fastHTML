@@ -8,5 +8,5 @@
 
 # Get Started
 - install all module dependency `dotenv`, `fasthtml`, `yfinance`, `pandas`, `requests` and `os`
-- dont forget to set .env file as EXCHANGE_RATE_API_KEY, so you can get it from: https://www.exchangerate-api.com/
+- dont forget to set .env file at EXCHANGE_RATE_API_KEY, so you can get it from: https://www.exchangerate-api.com/
 - start project using this command `python main.py`
