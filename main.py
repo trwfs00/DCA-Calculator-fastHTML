@@ -179,8 +179,22 @@ def get():
                 }});
             }}
 
+            function toggleInputs() {{
+                var stockDiv = document.getElementById('stock-symbol-div');
+                var customRateDiv = document.getElementById('custom-rate-div');
+                var rateSource = document.querySelector('input[name="rate_source"]:checked').value;
+                if (rateSource === 'stock') {{
+                    stockDiv.style.display = 'block';
+                    customRateDiv.style.display = 'none';
+                }} else {{
+                    stockDiv.style.display = 'none';
+                    customRateDiv.style.display = 'block';
+                }}
+            }}
+
             document.addEventListener('DOMContentLoaded', function() {{
                 autocomplete(document.getElementById('stock'));
+                toggleInputs();  // Set initial visibility based on default selection
             }});
         '''),
         Div(
