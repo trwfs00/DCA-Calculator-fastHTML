@@ -6,7 +6,19 @@
 ![image](https://github.com/user-attachments/assets/bcc63866-a959-425e-b642-63f9b7dd8f0e)
 ![image](https://github.com/user-attachments/assets/f35f0cc8-4c44-4772-9567-bdf4331a92e3)
 
-# Get Started
-- install all module dependency `dotenv`, `fasthtml`, `yfinance`, `pandas`, `requests` and `os`
+## Getting Started
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 - dont forget to set .env file at EXCHANGE_RATE_API_KEY, so you can get it from: https://www.exchangerate-api.com/
-- start project using this command `python main.py`
+
+## Running Locally
+
+Start the development server on http://127.0.0.1:9090
+
+```bash
+python main.py
+```
