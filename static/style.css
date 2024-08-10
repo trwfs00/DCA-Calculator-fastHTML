@@ -3,5 +3,7 @@
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
-  padding: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px;
 }
