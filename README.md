@@ -1,5 +1,5 @@
 # fastHTML - DCA Calculator
-- Framework SRC: https://www.fastht.ml/
+- Framework source: https://www.fastht.ml/
 
 # Example
 ![image](https://github.com/user-attachments/assets/0de750bf-924f-404c-8cd8-65cef5190244)
@@ -8,4 +8,5 @@
 
 # Get Started
 - install all module dependency `dotenv`, `fasthtml`, `yfinance`, `pandas`, `requests` and `os`
+- dont forget to set .env file as EXCHANGE_RATE_API_KEY, so you can get it from: https://www.exchangerate-api.com/
 - start project using this command `python main.py`
