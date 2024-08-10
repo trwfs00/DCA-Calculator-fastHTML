@@ -1,0 +1,6 @@
+python-fasthtml==0.3.0
+uvicorn==0.30.5
+yfinance==0.2.41
+pandas==2.2.2
+requests==2.32.3
+dotenv==0.0.5
